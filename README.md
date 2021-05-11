@@ -13,8 +13,8 @@ Conditional structure "if".
 
 1- flex lexical\ analyser\ c\ syntaxe.flex
 
-2- gcc lex.yy.c -o <name>.out
+2- gcc lex.yy.c -o << name >>.out
 
 5- write a c program in a file named input.c
 
-4- ./<name>.out
+4- ./<< name >>.out

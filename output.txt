@@ -1,0 +1,88 @@
+this is a multi line comments: /* Khaldoun Chtourou 2ème informatique groupe D */
+
+This is the import pre-processor directive: #include <stdio.h>
+
+This is a keyword: void
+
+This is the main function: main(
+
+This is a delimiter: )
+
+This is a delimiter: {
+
+This is declation of an integer variable: int
+
+This is an identifier: a
+
+This is assignment operator: =
+
+This is an integer: 18
+
+This is a delimiter: ;
+
+This is declation of a real variable: float
+
+This is an identifier: b
+
+This is assignment operator: =
+
+This is a fraction : 18.0
+
+This is a delimiter: ;
+
+This is the condition structure: if
+
+This is a delimiter: (
+
+This is an identifier: a
+
+This is inf relational operator: <
+
+This is an integer: 0
+
+This is a delimiter: )
+
+This is a delimiter: {
+
+This is an identifier: printf
+
+This is a delimiter: (
+
+this is a string:"a is negative\n"
+
+This is a delimiter: )
+
+This is a delimiter: ;
+
+This is a delimiter: }
+
+This is the condition structure: else
+
+This is the condition structure: if
+
+This is a delimiter: (
+
+This is an identifier: a
+
+This is equals relational operator: ==
+
+This is an integer: 18
+
+This is a delimiter: )
+
+This is a delimiter: {
+
+This is an identifier: a
+
+This is increment operator: ++
+
+This is a delimiter: ;
+
+This is a delimiter: }
+
+This is a delimiter: }
+
+
+
+
+Total Tokens = 42

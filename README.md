@@ -8,6 +8,8 @@ Declaration part of variables including types int and float.
 
 Conditional structure "if". 
 
+And many other futures..
+
 
 ## How to test
 

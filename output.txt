@@ -32,8 +32,6 @@ This is a delimiter: ;
 
 This is the condition structure: if
 
-This is a delimiter: (
-
 This is an identifier: a
 
 This is inf relational operator: <
@@ -44,9 +42,7 @@ This is a delimiter: )
 
 This is a delimiter: {
 
-This is an identifier: printf
-
-This is a delimiter: (
+This is a function: printf(
 
 this is a string:"a is negative\n"
 
@@ -59,8 +55,6 @@ This is a delimiter: }
 This is the condition structure: else
 
 This is the condition structure: if
-
-This is a delimiter: (
 
 This is an identifier: a
 
@@ -85,4 +79,4 @@ This is a delimiter: }
 
 
 
-Total Tokens = 42
+Total Tokens = 39

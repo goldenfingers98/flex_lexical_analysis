@@ -48,7 +48,7 @@ int total = 0 ;
 
 ("float") {total++; fprintf(yyout,"This is declation of a real variable: %s\n\n",yytext);}
 
-("if") {total++; fprintf(yyout,"This is the condition structure: if\n\n");}
+("if")|if(" ")*?\( {total++; fprintf(yyout,"This is the condition structure: if\n\n");}
 
 ("else") {total++; fprintf(yyout,"This is the condition structure: else\n\n");}
 
@@ -58,7 +58,7 @@ int total = 0 ;
 
 "main"*\( {total++; fprintf(yyout,"This is the main function: %s\n\n",yytext);}
 
-[a-zA-Z_][a-zA-Z0-9_]^("if"|"for"|"while")*\( {total++; fprintf(yyout,"This is a function: %s\n\n",yytext);}
+[a-zA-Z_][a-zA-Z0-9_]*\( {total++; fprintf(yyout,"This is a function: %s\n\n",yytext);}
 
 [a-zA-Z_][a-zA-Z0-9_]* {total++; fprintf(yyout,"This is an identifier: %s\n\n",yytext);}
 
